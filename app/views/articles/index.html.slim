@@ -1,10 +1,12 @@
 h1 Listing articles
 
-table
+col-sm-5.col-sm-offset-11
+  = link_to 'New Article', new_article_path, class: 'btn btn-success'
+
+table.table.table-striped
   thead
     tr
       th Título
-      th Texto
       th Data que foi publicado
       th
       th
@@ -13,13 +15,14 @@ table
   tbody
     - @articles.each do |article|
       tr
-        td = article.title
-        td = article.body
+        td = article.title  
         td = article.publish_at
-        td = link_to 'Show', article
-        td = link_to 'Edit', edit_article_path(article)
-        td = link_to 'Destroy', article, data: {:confirm => 'Are you sure?'}, :method => :delete
+        td
+          .btn-group.pull-right 
+            = link_to 'exibir', article, class: 'btn btn-primary btn-sm'
+            = link_to 'editar', edit_article_path(article) , class: 'btn btn-primary btn-sm'
+            = link_to 'desativar', article, data: {:confirm => 'Are you sure?'}, :method => :delete , class: 'btn btn-danger btn-sm'
 
 br
 
-= link_to 'New Article', new_article_path
+
