@@ -10005,3 +10005,1146 @@ Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 1
 
 
 Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 00:53:22 -0300
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 02:28:43 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.slim within layouts/application (37.4ms)
+Completed 200 OK in 149ms (Views: 131.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 02:28:43 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 02:28:43 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 02:28:43 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 02:28:43 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 02:28:43 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 02:28:43 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 02:30:19 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (66.2ms)
+  Rendered articles/new.html.slim within layouts/application (74.7ms)
+Completed 200 OK in 122ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 02:31:19 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.slim within layouts/application (2.3ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 02:31:19 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 02:31:19 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 02:31:19 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 02:31:19 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 02:31:19 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 02:31:19 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 02:31:20 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (15.4ms)
+  Rendered articles/new.html.slim within layouts/application (16.6ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 02:32:03 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (23.8ms)
+  Rendered articles/new.html.slim within layouts/application (28.8ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 02:32:03 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 02:32:03 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 02:32:03 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 02:32:03 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 02:32:03 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 02:32:03 -0300
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 03:20:19 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.slim within layouts/application (10.9ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:20:20 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (17.7ms)
+  Rendered articles/new.html.slim within layouts/application (22.5ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:21:06 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (21.8ms)
+  Rendered articles/new.html.slim within layouts/application (23.0ms)
+Completed 200 OK in 72ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:21:06 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:21:06 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:21:06 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:21:06 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:21:06 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:21:06 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:23:50 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:25:30 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (23.3ms)
+  Rendered articles/new.html.slim within layouts/application (24.7ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (Invalid CSS after "250px": expected expression (e.g. 1px, bold), was ";"
+  (in /home/ricardo/Trabalho/blog/app/assets/stylesheets/application.sass:4)):
+    2: html
+    3:   head
+    4:     title Blog
+    5:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    7:     = csrf_meta_tags 
+    8:   body
+  app/assets/stylesheets/application.sass:4
+  app/views/layouts/application.html.slim:5:in `_app_views_layouts_application_html_slim___329383926__624573298'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (36.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (72.6ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:25:46 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (17.9ms)
+  Rendered articles/new.html.slim within layouts/application (19.3ms)
+Completed 200 OK in 1750ms (Views: 1749.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-656544cf2a237e1c1d174360acebc694.css?body=1" for 127.0.0.1 at 2015-04-05 03:25:48 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:25:48 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:25:48 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:25:48 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:25:48 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:25:48 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:27:01 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (16.0ms)
+  Rendered articles/new.html.slim within layouts/application (16.8ms)
+Completed 200 OK in 1514ms (Views: 1512.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-cd157d9ac9df32e450de7264ce548624.css?body=1" for 127.0.0.1 at 2015-04-05 03:27:02 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:02 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:02 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:02 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:02 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:02 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:27:23 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (16.4ms)
+  Rendered articles/new.html.slim within layouts/application (18.1ms)
+Completed 200 OK in 1540ms (Views: 1538.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-2ad3295d0b6462216d6a8a45c3b3299a.css?body=1" for 127.0.0.1 at 2015-04-05 03:27:24 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:24 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:24 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:24 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:24 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:24 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:27:53 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (16.3ms)
+  Rendered articles/new.html.slim within layouts/application (17.7ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-2ad3295d0b6462216d6a8a45c3b3299a.css?body=1" for 127.0.0.1 at 2015-04-05 03:27:53 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:53 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:53 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:53 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:53 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:27:53 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:28:11 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (15.1ms)
+  Rendered articles/new.html.slim within layouts/application (16.7ms)
+Completed 200 OK in 1514ms (Views: 1512.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:28:12 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:12 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:12 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:12 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:12 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:12 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:28:45 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (32.2ms)
+  Rendered articles/new.html.slim within layouts/application (33.6ms)
+Completed 200 OK in 105ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:45 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:45 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:45 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:45 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:28:45 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:45 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:28:47 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (14.8ms)
+  Rendered articles/new.html.slim within layouts/application (15.9ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:28:47 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:47 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:47 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:47 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:47 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:47 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:28:51 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (23.9ms)
+  Rendered articles/new.html.slim within layouts/application (25.2ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:51 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:51 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:51 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:51 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:28:51 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:28:51 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:29:23 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (22.0ms)
+  Rendered articles/new.html.slim within layouts/application (23.1ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:29:23 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:23 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:23 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:23 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:23 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:23 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:29:44 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (25.0ms)
+  Rendered articles/new.html.slim within layouts/application (26.3ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:44 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:44 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:44 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:29:44 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:44 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:44 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:29:45 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (34.7ms)
+  Rendered articles/new.html.slim within layouts/application (35.9ms)
+Completed 200 OK in 89ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:45 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:45 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:45 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:29:45 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:45 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:45 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:29:57 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (26.0ms)
+  Rendered articles/new.html.slim within layouts/application (27.1ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:29:58 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:58 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:58 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:58 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:58 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:29:58 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:30:13 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (24.3ms)
+  Rendered articles/new.html.slim within layouts/application (26.0ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:13 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:30:13 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:13 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:13 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:13 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:13 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:30:31 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (25.6ms)
+  Rendered articles/new.html.slim within layouts/application (26.8ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:31 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:31 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:30:31 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:31 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:31 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:30:31 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:30:52 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (4.7ms)
+  Rendered articles/new.html.slim within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Malformed indentation
+  /home/ricardo/Trabalho/blog/app/views/articles/_form.html.slim, Line 7, Column 3
+    .col-sm-3.col-sm-offset-5
+    ^
+):
+    4:   .form-inputs
+    5:     = f.input :title
+    6:     = f.input :body
+    7:    .col-sm-3.col-sm-offset-5
+    8:     	= f.input :publish_at
+    9: 
+   10:   .form-actions
+  app/views/articles/_form.html.slim:7
+  app/views/articles/new.html.slim:3:in `_app_views_articles_new_html_slim__504281003__593655098'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (27.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (2.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (59.2ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:31:00 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (5.0ms)
+  Rendered articles/new.html.slim within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Malformed indentation
+  /home/ricardo/Trabalho/blog/app/views/articles/_form.html.slim, Line 7, Column 3
+    .col-sm-3.col-sm-offset-5
+    ^
+):
+    4:   .form-inputs
+    5:     = f.input :title
+    6:     = f.input :body
+    7:    .col-sm-3.col-sm-offset-5
+    8:     = f.input :publish_at
+    9: 
+   10:   .form-actions
+  app/views/articles/_form.html.slim:7
+  app/views/articles/new.html.slim:3:in `_app_views_articles_new_html_slim__504281003__593655098'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (27.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (56.8ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:31:05 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (4.6ms)
+  Rendered articles/new.html.slim within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Malformed indentation
+  /home/ricardo/Trabalho/blog/app/views/articles/_form.html.slim, Line 7, Column 3
+    .col-sm-3.col-sm-offset-5
+    ^
+):
+    4:   .form-inputs
+    5:     = f.input :title
+    6:     = f.input :body
+    7:    .col-sm-3.col-sm-offset-5
+    8:    	 = f.input :publish_at
+    9: 
+   10:   .form-actions
+  app/views/articles/_form.html.slim:7
+  app/views/articles/new.html.slim:3:in `_app_views_articles_new_html_slim__504281003__593655098'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (28.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (57.1ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:31:10 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (5.0ms)
+  Rendered articles/new.html.slim within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Malformed indentation
+  /home/ricardo/Trabalho/blog/app/views/articles/_form.html.slim, Line 7, Column 3
+    col-sm-3.col-sm-offset-5
+    ^
+):
+    4:   .form-inputs
+    5:     = f.input :title
+    6:     = f.input :body
+    7:    col-sm-3.col-sm-offset-5
+    8:    	 = f.input :publish_at
+    9: 
+   10:   .form-actions
+  app/views/articles/_form.html.slim:7
+  app/views/articles/new.html.slim:3:in `_app_views_articles_new_html_slim__504281003__593655098'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (27.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (54.9ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:31:17 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (25.8ms)
+  Rendered articles/new.html.slim within layouts/application (26.8ms)
+Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:17 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:17 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:17 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:31:17 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:17 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:17 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:31:30 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (6.8ms)
+  Rendered articles/new.html.slim within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (Malformed indentation
+  /home/ricardo/Trabalho/blog/app/views/articles/_form.html.slim, Line 6, Column 2
+    .form-inputs
+    ^
+):
+    3: 
+    4: .form-actions
+    5:     = f.button :submit , class: 'btn btn-primary'
+    6:   .form-inputs
+    7:     = f.input :title
+    8:     = f.input :body
+    9:    	.col-sm-3.col-sm-offset-5
+  app/views/articles/_form.html.slim:6
+  app/views/articles/new.html.slim:3:in `_app_views_articles_new_html_slim__504281003__593655098'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (28.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (57.5ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:31:42 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (20.7ms)
+  Rendered articles/new.html.slim within layouts/application (21.4ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0xb5895660>:0xb3258434>):
+    2:   = f.error_notification
+    3: 
+    4: .form-actions
+    5:     = f.button :submit , class: 'btn btn-primary'
+    6: .form-inputs
+    7: 	= f.input :title
+    8:     = f.input :body
+  app/views/articles/_form.html.slim:5:in `_app_views_articles__form_html_slim___650813849__644708148'
+  app/views/articles/new.html.slim:3:in `_app_views_articles_new_html_slim__504281003__593655098'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (29.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (60.1ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:31:53 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (24.0ms)
+  Rendered articles/new.html.slim within layouts/application (25.3ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:53 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:53 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:31:53 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:53 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:53 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:31:53 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:32:22 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (16.3ms)
+  Rendered articles/new.html.slim within layouts/application (17.5ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:32:22 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:22 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:22 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:22 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:22 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:22 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:32:42 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (22.2ms)
+  Rendered articles/new.html.slim within layouts/application (23.1ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:42 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:42 -0300
+
+
+Started GET "/assets/application-704cb566f500eccac687f3671e9d00e9.css?body=1" for 127.0.0.1 at 2015-04-05 03:32:42 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:42 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:42 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:32:42 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:34:26 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (14.9ms)
+  Rendered articles/new.html.slim within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (Invalid CSS after "120px": expected expression (e.g. 1px, bold), was ";"
+  (in /home/ricardo/Trabalho/blog/app/assets/stylesheets/application.sass:7)):
+    2: html
+    3:   head
+    4:     title Blog
+    5:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    7:     = csrf_meta_tags 
+    8:   body
+  app/assets/stylesheets/application.sass:7
+  app/views/layouts/application.html.slim:5:in `_app_views_layouts_application_html_slim___329383926__624573298'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (27.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (56.5ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:34:31 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (19.8ms)
+  Rendered articles/new.html.slim within layouts/application (21.0ms)
+Completed 200 OK in 1566ms (Views: 1565.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c5fec537027cb530d85d8f016579db3f.css?body=1" for 127.0.0.1 at 2015-04-05 03:34:32 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:34:32 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:34:32 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:34:32 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:34:32 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:34:32 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:35:17 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (27.8ms)
+  Rendered articles/new.html.slim within layouts/application (29.0ms)
+Completed 200 OK in 1568ms (Views: 1566.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-2d6b473573db0a9d5aadb07944d819a3.css?body=1" for 127.0.0.1 at 2015-04-05 03:35:19 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:35:19 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:35:19 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:35:19 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:35:19 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:35:19 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:37:13 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (27.7ms)
+  Rendered articles/new.html.slim within layouts/application (29.2ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (Invalid CSS after "30px": expected expression (e.g. 1px, bold), was ";"
+  (in /home/ricardo/Trabalho/blog/app/assets/stylesheets/application.sass:11)):
+    2: html
+    3:   head
+    4:     title Blog
+    5:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    7:     = csrf_meta_tags 
+    8:   body
+  app/assets/stylesheets/application.sass:11
+  app/views/layouts/application.html.slim:5:in `_app_views_layouts_application_html_slim___329383926__624573298'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (26.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (54.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:37:17 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (13.9ms)
+  Rendered articles/new.html.slim within layouts/application (14.9ms)
+Completed 200 OK in 1606ms (Views: 1605.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-b6dcebbbce742ced5f18a5244b6f9691.css?body=1" for 127.0.0.1 at 2015-04-05 03:37:19 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:19 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:19 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:19 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:19 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:19 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:37:26 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (16.6ms)
+  Rendered articles/new.html.slim within layouts/application (18.1ms)
+Completed 200 OK in 1512ms (Views: 1510.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:28 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:28 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:28 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:28 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:28 -0300
+
+
+Started GET "/assets/application-5c7501060ebacb99f37a554fa4cd2502.css?body=1" for 127.0.0.1 at 2015-04-05 03:37:28 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:37:40 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (23.2ms)
+  Rendered articles/new.html.slim within layouts/application (24.2ms)
+Completed 200 OK in 1504ms (Views: 1502.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-59ae1211cae74a519e184c19d4f854de.css?body=1" for 127.0.0.1 at 2015-04-05 03:37:42 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:42 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:42 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:42 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:42 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:37:42 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:38:23 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (17.6ms)
+  Rendered articles/new.html.slim within layouts/application (18.6ms)
+Completed 200 OK in 1556ms (Views: 1555.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c21fe6b65fc737277b028e42786ff2c5.css?body=1" for 127.0.0.1 at 2015-04-05 03:38:24 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:24 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:24 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:24 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:24 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:24 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:38:45 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (18.2ms)
+  Rendered articles/new.html.slim within layouts/application (19.3ms)
+Completed 200 OK in 1446ms (Views: 1445.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-9214d6eee3a3432fff2335a0aace3246.css?body=1" for 127.0.0.1 at 2015-04-05 03:38:46 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:46 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:46 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:46 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:46 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:46 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:38:57 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (18.8ms)
+  Rendered articles/new.html.slim within layouts/application (20.1ms)
+Completed 200 OK in 1674ms (Views: 1673.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:58 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:58 -0300
+
+
+Started GET "/assets/application-5fc3ebf79b1164856b52707834c6d61a.css?body=1" for 127.0.0.1 at 2015-04-05 03:38:58 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:58 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:58 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:38:58 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:39:46 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (16.9ms)
+  Rendered articles/new.html.slim within layouts/application (18.2ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5fc3ebf79b1164856b52707834c6d61a.css?body=1" for 127.0.0.1 at 2015-04-05 03:39:46 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:46 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:46 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:46 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:46 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:46 -0300
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 03:39:56 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (15.8ms)
+  Rendered articles/new.html.slim within layouts/application (16.8ms)
+Completed 200 OK in 1467ms (Views: 1466.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:57 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:57 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:57 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:57 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 03:39:57 -0300
+
+
+Started GET "/assets/application-995db48c65cc13792451a3a195137d57.css?body=1" for 127.0.0.1 at 2015-04-05 03:39:57 -0300
