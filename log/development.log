@@ -11148,3 +11148,269 @@ Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for
 
 
 Started GET "/assets/application-995db48c65cc13792451a3a195137d57.css?body=1" for 127.0.0.1 at 2015-04-05 03:39:57 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-05 10:55:16 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 94ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 10:55:20 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.slim within layouts/application (183.5ms)
+Completed 200 OK in 459ms (Views: 455.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application-995db48c65cc13792451a3a195137d57.css?body=1" for 127.0.0.1 at 2015-04-05 10:55:21 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 10:55:21 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 10:55:21 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 10:55:21 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 10:55:21 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 10:55:21 -0300
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-04-05 10:55:23 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered articles/show.html.slim within layouts/application (7.0ms)
+Completed 200 OK in 117ms (Views: 53.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 10:55:27 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.slim within layouts/application (14.6ms)
+Completed 200 OK in 94ms (Views: 92.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 11:14:26 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (322.1ms)
+  Rendered articles/new.html.slim within layouts/application (338.0ms)
+Completed 200 OK in 385ms (Views: 384.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2015-04-05 11:14:33 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4WZJrnt9OJi3ves4JIaZYWxWW2bcngsJG7lxswUNXorym71o+9HgDqGNHqE/RWMqvEuc1R1ca+XYIEj1ls63Ew==", "article"=>{"title"=>"gkjg", "body"=>"jf", "publish_at(1i)"=>"2017", "publish_at(2i)"=>"4", "publish_at(3i)"=>"5", "publish_at(4i)"=>"14", "publish_at(5i)"=>"14"}, "commit"=>"Create Article"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "articles" ("title", "body", "publish_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "gkjg"], ["body", "jf"], ["publish_at", "2017-04-05 14:14:00.000000"], ["created_at", "2015-04-05 14:14:33.064120"], ["updated_at", "2015-04-05 14:14:33.064120"]]
+  [1m[36m (161.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 170ms (ActiveRecord: 162.5ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2015-04-05 11:14:33 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered articles/show.html.slim within layouts/application (7.2ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 11:14:36 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.slim within layouts/application (2.6ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-04-05 11:20:07 -0300
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.slim (19.6ms)
+  Rendered articles/new.html.slim within layouts/application (20.9ms)
+Completed 200 OK in 69ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2015-04-05 11:20:11 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+Ipuf2VlXCvivEoKecN8kT1fdSjquUujqAtM3X+OKiPrd5q55cmEvfSMv5NiAIba7UKymyt7K09rknWb7E3Dug==", "article"=>{"title"=>"fdgd", "body"=>"sdvf", "publish_at(1i)"=>"2015", "publish_at(2i)"=>"4", "publish_at(3i)"=>"5", "publish_at(4i)"=>"14", "publish_at(5i)"=>"20"}, "commit"=>"Create Article"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("title", "body", "publish_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "fdgd"], ["body", "sdvf"], ["publish_at", "2015-04-05 14:20:00.000000"], ["created_at", "2015-04-05 14:20:11.451206"], ["updated_at", "2015-04-05 14:20:11.451206"]]
+  [1m[35m (126.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 134ms (ActiveRecord: 127.2ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2015-04-05 11:20:11 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered articles/show.html.slim within layouts/application (9.1ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2015-04-05 11:20:19 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered articles/show.html.slim within layouts/application (7.9ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-995db48c65cc13792451a3a195137d57.css?body=1" for 127.0.0.1 at 2015-04-05 11:20:19 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 11:20:19 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 11:20:19 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 11:20:19 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 11:20:19 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 11:20:19 -0300
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2015-04-05 11:21:02 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered articles/show.html.slim within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-995db48c65cc13792451a3a195137d57.css?body=1" for 127.0.0.1 at 2015-04-05 11:21:02 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 11:21:02 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 11:21:02 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 11:21:02 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 11:21:02 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 11:21:02 -0300
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 11:21:08 -0300
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-04-05 11:22:46 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered articles/show.html.slim within layouts/application (8.8ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-04-05 11:23:59 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered articles/show.html.slim within layouts/application (8.1ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 11:23:59 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 11:23:59 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 11:23:59 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 11:23:59 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 11:23:59 -0300
+
+
+Started GET "/assets/application-995db48c65cc13792451a3a195137d57.css?body=1" for 127.0.0.1 at 2015-04-05 11:23:59 -0300
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 11:24:01 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.slim within layouts/application (3.2ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-04-05 11:24:02 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered articles/show.html.slim within layouts/application (7.5ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-04-05 13:24:46 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.slim within layouts/application (5.5ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCategories (20150405163318)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150405163318"]]
+  [1m[36m (127.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-04-05 14:23:13 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered categories/index.html.slim within layouts/application (20.4ms)
+Completed 200 OK in 128ms (Views: 110.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-05 14:23:14 -0300
+
+
+Started GET "/assets/application-995db48c65cc13792451a3a195137d57.css?body=1" for 127.0.0.1 at 2015-04-05 14:23:14 -0300
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for 127.0.0.1 at 2015-04-05 14:23:14 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-05 14:23:14 -0300
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-05 14:23:14 -0300
+
+
+Started GET "/assets/application-82b379f611d69eb41d92f4f9958f06b6.js?body=1" for 127.0.0.1 at 2015-04-05 14:23:14 -0300
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2015-04-05 14:23:21 -0300
+Processing by CategoriesController#new as HTML
+  Rendered categories/_form.html.slim (86.0ms)
+  Rendered categories/new.html.slim within layouts/application (96.8ms)
+Completed 200 OK in 148ms (Views: 143.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2015-04-05 14:23:24 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.slim within layouts/application (6.9ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.2ms)
