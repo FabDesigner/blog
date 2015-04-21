@@ -3,6 +3,8 @@
 
   .form-inputs
     = f.input :title
+    strong categoria
+    = f.association :category, prompt: 'categoria' , label: false
     = f.input :body
     = f.input :publish_at
 

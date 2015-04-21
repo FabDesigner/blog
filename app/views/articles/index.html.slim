@@ -8,6 +8,7 @@ table.table.table-striped
     tr
       th Título
       th Data que foi publicado
+      th Categoria
       th
       th
       th
@@ -17,6 +18,7 @@ table.table.table-striped
       tr
         td = article.title  
         td = article.publish_at
+        td = article.category.try(:name)
         td
           .btn-group.pull-right 
             = link_to 'exibir', article, class: 'btn btn-primary btn-sm'
